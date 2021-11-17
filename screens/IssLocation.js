@@ -14,7 +14,7 @@ constructor(props){
 
 componentDidMount(){
     // setInterval(this.getISSLocation,2000);
-    this.getISSLocation();
+    this.getISSLocation();vb    
 }
 
 getISSLocation = () =>{

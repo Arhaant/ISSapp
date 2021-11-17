@@ -13,10 +13,10 @@ import {
 
 export default class HomeScreen extends Component {
     render() {
-        return (
+        return (//fjuthbshghhthweirvthib<>iuefgueruiuwvsuhtgurgwhefdfujjtjhyhhei    
             <View style={styles.container}>
                 <SafeAreaView style={styles.droidSafeArea} />
-                <ImageBackground source={require('../assets/bg_image.png')} style={styles.backgroundImage}>
+                <ImageBackground source={require('../assets/bg_image.png')} style={styles.backgroundImage}> 
                     <View style={styles.titleBar}>
                         <Text style={styles.titleText}>ISS Tracker App</Text>
                     </View>
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     backgroundImage: {
         flex: 1,
         resizeMode: 'cover',
-    },
+    },  
     routeCard: {
         flex: 0.25,
         marginLeft: 50,
