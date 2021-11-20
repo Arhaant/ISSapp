@@ -23,7 +23,7 @@ export default function App() {
         component={IssLocationScreen} 
         />
          <Stack.Screen 
-        name="MeteorLocation" 
+        name="Meteors" 
         component={MeteorScreen} 
         />
       </Stack.Navigator>
